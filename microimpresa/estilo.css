@@ -1,0 +1,162 @@
+
+h1 {
+    height: 50px;
+}
+.container{
+    height: 100px;
+    margin: 10px; 
+    height: auto;
+    width: 10%;
+}
+.container img{
+    height: 660px;
+    justify-content: center;
+    padding: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: black; 
+    
+}
+footer{
+    justify-content: end;
+    padding: 100px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+p{
+text-align: center;
+font-size: 20px;
+padding: 100px;
+}
+
+
+form{
+    background-color: rgba(58, 238, 22, 0.39);
+    padding: 200px;
+    box-shadow: 0 2px 5px rgba(rgb(102, 43, 43), rgb(58, 122, 58), blue, alpha);
+    align-items: center;
+    margin: 300px;
+    border-radius: 100px;
+
+    
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+}
+input, textarea{
+    
+    padding: 10px;
+    border: 1px dashed;
+}
+
+.video-container{
+    position: relative;
+    width: 640px;
+}
+.controls{
+    background-color: bisque;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.constrols button, .constrols input{
+    margin-right: 10px;
+    
+}
+video{
+    width: 1250px;
+    padding: 290px;
+    margin: 0;
+}
+.card-grid {
+    margin-top: 40px;
+    display: grid;/*posiciona os cards lado a lado*/
+    grid-template-columns: auto;/* colunas automáticas*/
+    grid-template-areas: "a a a a";/*divide o grid em 4 colunas*/
+    gap: 20px;/* espaço (vão) entre as colunas do grid*/
+    width: 1300px;/*largura total do grid*/
+    padding: 250px;
+
+    
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    display: block;
+    
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card-content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;/*velocidade de transição da cor do botão*/
+}
+
+.card-content .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);/*movimenta o botão em -2px no eixo y*/
+}
+
+.card:hover {
+    transform: translateY(-5px);/*movimenta o cartão em -5px no eixo y*/
+}
+
+.mapa{
+    justify-content: center;
+    display: flex;
+ 
+}
+body{
+    background-color: rgba(72, 168, 72, 0.178);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
