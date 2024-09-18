@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #ccc9c9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    background-color: #a5a5a5;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    background-color: #a5a5a5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    margin: 1em 0;
+    padding: 1em;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="date"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2.5em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f; /* Cor cinza escuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4caf50; /* Cor verde ao passar o mouse */
+}
