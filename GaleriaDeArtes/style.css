@@ -1,0 +1,106 @@
+body{
+    height: 1000px;
+}
+.carrosel {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.slides {
+    position: relative;
+}
+
+.slide {
+    display: none; 
+    width: 70%; 
+}
+
+#tenis1:checked ~ .slides #slide1,
+#tenis2:checked ~ .slides #slide2,
+#tenis3:checked ~ .slides #slide3,
+#tenis4:checked ~ .slides #slide4,
+#tenis5:checked ~ .slides #slide5,
+#tenis6:checked ~ .slides #slide6 {
+    display: block;
+    width: 700px;
+    margin: 0;
+
+}
+
+ul {
+    display: flex;
+    margin-top: 20px;
+    padding: 0; 
+}
+
+ul img {
+    width: 130px; 
+    height: auto;
+    margin: 0 3px;   
+    transition: transform 0.6s;
+    display: flex;
+    opacity: 50%;
+
+}
+
+ul img:hover {
+    transform: scale(1.3);
+    
+
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.preco {
+    text-align: right;
+    display: inline-table;
+}
+
+li {
+    list-style: none; 
+}
+
+input{
+    display: inline-block;
+    
+}
+.container{
+    width: 700px;
+    border-style: ridge;
+
+}
+.p{
+    
+    font-size: 50px;
+    display: contents;
+    border-style: black ridge solid;
+    padding: 0; 
+}   
+.produto {
+    justify-items: center;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    padding-left: 569px;
+}
+button{
+    margin-right: 80PX;
+    border-radius: 30px;
+    height: 43px;
+    width: 300px;
+    background-color: rgb(255, 136, 0);
+    justify-content: center;
+}
+button:hover {
+    background-image: linear-gradient(to top,  rgb(255, 169, 70), rgb(255, 136, 0), rgb(255, 169, 70)) ;
+    transform: scale(1.2,1.2);
+    transition: 0.2s;
+    max-height: 300px;
+}
