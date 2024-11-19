@@ -1,0 +1,431 @@
+.logo {
+  background-color: #C90000;
+  justify-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 60px;
+  padding-right: 500px;
+  padding-left: 400px;
+  padding-top: 40px;
+
+}
+
+.logo img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.logo p {
+  font-size: 32px;
+  padding-top: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.espimg img {
+  margin: auto;
+  padding-left: 1000px;
+  padding-top: 250px;
+}
+
+.info2 p {
+  margin-top: 20px;
+  width: 700px;
+  justify-items: center;
+}
+
+.info2 {
+  width: 900px;
+  padding: 20px;
+  margin-left: 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: black;
+  font-size: 40px;
+}
+
+.div1 {
+  background-color: #c7181856;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.div2 div {
+  padding-left: 10px;
+}
+
+.atletas img {
+  height: 1200px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.accordion-menu {
+  width: 130px;
+  background: #c90000ab;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+.accordion-menu .logoimg {
+  display: flex;
+  margin: auto;
+  padding-right: 30px;
+}
+
+.accordion-menu li.open .dropdownlink {
+  color: #000000;
+}
+
+.accordion-menu li:last-child .dropdownlink {
+  border-bottom: 0;
+}
+
+.dropdownlink {
+  cursor: pointer;
+  font-size: 30px;
+  color: #212121;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdownlink:hover {
+  background-color: #C90000;
+  color: #fff;
+}
+
+.fa-chevron-down {
+  position: absolute;
+  right: 130px;
+  left: auto;
+}
+
+.submenuItems {
+  display: none;
+  background: #c90000ab;
+}
+
+.submenuItems li {
+  border-bottom: 1px solid #000000;
+  
+}
+
+.submenuItems a {
+  display: block;
+  color: #000000;
+  padding: 12px 12px 12px 45px;
+  transition: all 0.4s ease-out;
+  
+}
+
+.submenuItems a:hover {
+  background-color: #C90000;
+  color: #fff;
+  
+}
+
+.info {
+  display: flex;
+  position: relative;
+}
+
+.info .fundo2 {
+  width: 150%;
+  opacity: 0.5; 
+}
+
+.info .texto {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  color: #000000; 
+  width: 600px;
+  margin-bottom: 100px;
+  margin-top: 280px;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.info p {
+  margin-bottom: 10px;
+}
+
+.espimg {
+  padding: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mapa iframe{
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  padding-bottom: 10px;
+  
+}
+.mapa {
+  background-color: #C90000;
+  padding-top: 10px;
+}
+
+.barra {
+  background-color: #C90000;
+  
+}
+
+.barra li{
+
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+  padding-left: 100px;
+  margin-left: 200px;
+  width: 40px;
+
+}
+.barra a{
+  color: black;
+}
+
+.icons i{
+  margin-left: 420px;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll-up {
+  right: 3.75rem;
+}
+
+.scroll-up {
+  position: fixed;
+  display: none;
+  bottom: 4.688rem;
+  right: 3.75rem;
+  z-index: 1;
+}
+
+
+.scroll-up.custom a {
+  border-radius: 3px;
+}
+.scroll-up a {
+  background-color: #C90000;
+}
+.scroll-up a {
+  display: block;
+  height: 2.1em;
+  width: 2.1em;
+  text-align: center;
+  line-height: 2;
+  border-radius: 3px;
+  font-size: 1.30rem;
+  color: #fff;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+a {
+  color: #000;
+  text-decoration: none;
+  transition: 0s;
+  cursor: pointer;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 54px 0;
+  flex-direction: column;
+}
+
+.rodape h2 {
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+
+.rodape-icones{
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
+.endereco{
+  text-align: center;
+}
+
+.endereco a {
+  color: #fff;
+  line-height: 200%;
+}
+
+.fundopik {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 507px; 
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+.container {
+  position: relative; 
+  z-index: 1; 
+}
+
+.rodape {
+  position: relative; 
+  z-index: 2; 
+}
+
+.cabecalho-botao {
+  position: relative;
+  z-index: 999;
+}
+.navbar {
+  background-color: #C90000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-lista li {
+  font-size: 20px;
+}
+
+.nav-lista a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-lista a:hover {
+  background-color: #a80000;
+}
+
+.cabecalho-botao {
+  margin-top: 20px;
+}
+
+.cabecalho-botao a {
+  background-color: #C90000;
+  color: #000000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;a
+  transition: background-color 0.3s ease;
+}
+
+.cabecalho-botao a:hover {
+  background-color: #a80000;
+}
+
+
+.treino-bloco {
+  background-color: #C90000;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.treino-bloco h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 50px;
+ 
+}
+
+.treino-bloco ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.treino-bloco ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.treino-bloco p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+
+.treinos {
+
+padding-bottom: 100px;
+}
+
+.treinos h2{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.treino-exemplo {
+	 background-color: #c90000;	
+	width: 600px;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.dica p{
+font-size: 32px;
+margin-top: 40px;
+ 
+	
+}
+
+h1{
+
+font-size: 80px;
+}
+

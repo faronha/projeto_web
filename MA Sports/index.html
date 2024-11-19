@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.dropdownlink').on('click', function() {
+                $(this).siblings('.submenuItems').slideToggle();
+                $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+            });
+
+            $('.scroll-up a').on('click', function(event) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+            });
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scroll-up').fadeIn();
+                } else {
+                    $('.scroll-up').fadeOut();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <section>
+        <img class="fundopik" src="img/Design sem nome (22).png" alt="">
+        <div class="container">
+            <div class="rodape">
+                <div class="logo">
+                    <nav class="navbar">
+                        <ul class="nav-lista">
+                            <li><a href="treinos.html">Treinos</a></li>
+                            
+                        </ul>
+                    </nav>
+    
+                    <img class="logoimg" src="img/logo (2).png" alt="logo">
+                    <nav class="cabecalho-conteudo">
+                        <div class="cabecalho-botao" data-aos="fade-up" data-aos-delay="300">
+                            <a href="https://api.whatsapp.com/send?phone=551194627-8871&text=Quero%20fazer%20um%20agendamento%20hoje!" class="cabecalho-botao">Agendar visitaaa</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <div class="info">
+            <img class="fundo2" src="img/Fundo2.jpeg" alt="Imagem de fundo">
+            <div class="espimg">
+                <div class="texto">
+                    <p>Na MA Sports, acreditamos que o talento e a determinação não devem ser limitados por condições financeiras. Somos uma equipe dedicada a oferecer preparações físicas de alta qualidade para atletas de baixa renda e baixo padrão social. Nosso objetivo é proporcionar oportunidades para que esses jovens atletas desenvolvam suas habilidades e alcancem seu potencial máximo.</p>
+                    <p>Com profissionais qualificados e apaixonados pelo esporte, oferecemos treinos personalizados, acompanhamento nutricional e suporte psicológico. Nossa metodologia é adaptada às necessidades de cada atleta, visando não apenas o desenvolvimento físico, mas também o fortalecimento da confiança e da disciplina.</p>
+                    <p>Acreditamos que, com o apoio certo, todos podem alcançar grandes conquistas, independentemente de sua origem. Na MA Sports, estamos comprometidos em transformar vidas através do esporte, criando um futuro mais justo e cheio de possibilidades. Junte-se a nós e faça parte dessa mudança!</p>
+                </div>
+                <div class="imgspi">
+                    <img class="esportes1" src="img/Esportes1.png" alt="Imagem de esportes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="info2">
+            <div>
+                <h2>Atletas descobertos em comunidades brasileiras.</h2>
+                <div class="div1">
+                    <p>De origem humilde, muitos atletas descobertos em comunidades brasileiras passaram necessidades e, se não fosse o apoio de projetos sociais, talvez seus talentos nunca tivessem sido revelados para o mundo. Em um país que pouco investe no esporte, com pouca iniciativa do setor privado, o terceiro setor é uma alternativa importante para produzirmos cidadãos vencedores, ganhadores ou não de medalhas e títulos.</p>
+                </div>
+                <div class="div2"> 
+                    <p>O atleta Isaquias Queiroz, ganhador do ouro na categoria da canoagem C1-1000m em Tóquio, com duas medalhas de prata e um bronze na Rio 2016, foi descoberto em um projeto social ligado ao Ministério do Esporte, em 2005, infelizmente foi extinto.</p>
+                </div>
+                <div class="div1">
+                    <p>Os medalhistas do boxe, Hebert Conceição (ouro – categoria peso-médio) e Abner Teixeira (bronze – categoria peso-pesado), foram descobertos e formados nos projetos “Academia Champion” (Salvador/BA) e “Boxe – uma luz para o futuro” (Sorocaba/SP), respectivamente.</p>
+                </div>
+                <div class="div2">
+                    <p>No atletismo, temos Alison Piu, vencedor da medalha de bronze nos 400 metros com barreira, descoberto na adolescência pelo projeto social Instituto Edson Luciano Ribeiro, em São Joaquim da Barra (SP).</p>
+                </div>
+                <div class="div1">
+                    <p>O skate trouxe três pratas esse ano para o Brasil. Os atletas Rayssa Leal e Kelvin Hoefler também são oriundos de projetos sociais, como o Coletivo Love CT, de São Paulo, e o Instituto Ademafia, do Rio de Janeiro. Nos dois casos, as aulas de skate são conjugadas com outras práticas, como inglês, informática e artes, ampliando a formação dos participantes das oficinas.</p>
+                </div>
+                <div class="div2">
+                    <p>A ginasta Rebeca Andrade, que levou o ouro no salto e a prata na ginástica artística individual geral, iniciou aos quatro anos de idade em um projeto social da prefeitura de Guarulhos, interior de São Paulo. Sem a iniciativa, o talento da ginasta provavelmente não seria revelado ao mundo.</p>
+                </div>
+                <div class="div1">
+                    <p>Alguns ex-atletas que já viveram as dificuldades da carreira investem no apoio a novos talentos. É o caso do ex-judoca Flávio Canto, que, com a criação do Instituto Reação, atende mais de duas mil crianças, adolescentes e jovens de comunidades carentes do Rio de Janeiro e de Cuiabá. Foi do Reação que veio Rafaela Silva, primeira brasileira a ganhar ouro no judô, em 2016. Outros atletas e ex-atletas, como Paula Gonçalves (basquete), Gabriel Medina (surf) e Gustavo Kuerten (tênis), também mantêm projetos voltados para o desenvolvimento esportivo e cidadão.</p>
+                </div>
+                <div class="div2">
+                    <p>Em Tóquio, um breve levantamento sobre os atletas que disputaram a Olimpíada mostrou que dos 309 atletas olímpicos, 131 não contaram com patrocínio, 41 fizeram vaquinha para ir às disputas no Japão. Por isso também perguntamos: quantos Isaquias, Erlons e Rafaelas existem e estão só esperando a oportunidade de brilhar? Quantos mais atletas descobertos em comunidades podem estar por aí aguardando uma oportunidade?</p>
+                </div>
+                <div class="div1">
+                    <p>O sucesso dos atletas brasileiros demonstra mais uma vez a necessidade de apoio aos projetos sociais, em especial de grandes empresas. O IBHF atua na comunidade do Aglomerado da Serra, em Belo Horizonte, com uma gama de atividades de formação e desenvolvimento de competências e talentos, também por meio do esporte.</p>
+                </div>
+                <div class="div2"> 
+                    <p>Você ou sua empresa podem nos apoiar nesse trabalho de formar e despertar jovens talentos. Fale conosco!</p>
+                </div>
+            </div>
+            <div class="atletas">
+                <img src="img/atletas.png" alt="Imagem de atletas">
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1829.018858477715!2d-46.320454198861654!3d-23.53114581038973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1730228663388!5m2!1spt-BR!2sbr" width="1100" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="barra">
+            <footer class="rodape">
+                <div class="rodape-icones">
+                    <a href="https://www.instagram.com/senai-suzano">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/senai-suzano">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/senai-suzano">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                    </a>  
+                </div> 
+                <div>
+                    <img src="logo.svg" alt="">
+                </div>
+                <div class="endereco">
+                    <p><a href="privacidade.html">Politica de Privacidade</a></p>
+                    <address>Rua Inácio Garcia, 321 - Cid. Edson - Suzano - Sp</address>
+                    <p>Telefone: 11 94627-8871</p>
+                    <p>Copyright 2024 | Movimento Acessivel Sports - Todos direitos reservados</p>
+                </div>
+            </footer>
+
+        </div>
+            <div class="scroll-up" style="display: none;"><a href="#totop" title="Back to Top"><i class="fa fa-arrow-up"></i></a></div>
+    </section>
+</body>
+</html>
