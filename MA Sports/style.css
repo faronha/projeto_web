@@ -412,7 +412,7 @@ padding-bottom: 100px;
 
 .treino-exemplo {
 	 background-color: #c90000;	
-	width: 600px;
+	width: 700px;
 	font-size: 20px;
 	margin-left: 50px;
 }
@@ -427,5 +427,9 @@ margin-top: 40px;
 h1{
 
 font-size: 80px;
+}
+
+.treino-img img{
+	heigth: 700px;
 }
 
