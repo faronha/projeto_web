@@ -416,20 +416,16 @@ padding-bottom: 100px;
 	font-size: 20px;
 	margin-left: 50px;
 }
-
 .dica p{
 font-size: 32px;
-margin-top: 40px;
- 
-	
+margin-top: 40px;	
 }
 
 h1{
-
 font-size: 80px;
 }
 
-img{
+.treinos img{
 	heigth: 700px;
 	width: 700px;
 }
