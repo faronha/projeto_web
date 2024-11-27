@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #fdfdfd;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .cabecalho-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header .cabecalho-botao a {
+    background-color: transparent;
+    color: #ff0000;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+
+header .cabecalho-botao a:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border-color: #FF4500;
+}
+
+header .introducao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header .introducao h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+header .introducao p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.carrossel {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px auto;
+    position: relative;
+    background-color: #222222;
+}
+
+.carrossel-conteudo {
+    display: flex;
+    animation: carrosselAnimacao 12s infinite linear;
+}
+
+.carrossel-item {
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.carrossel-item img {
+    width: 1500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: 200px;
+}
+
+@keyframes carrosselAnimacao {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(0); }
+}
+
+#como-funciona {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#como-funciona h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#como-funciona p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+.funcionalidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.funcao {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.funcao i {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.funcao h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.funcao p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+#modalidades {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#modalidades h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#modalidades p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+.modalidades {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.modalidade {
+    flex: 1 1 30%;
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.modalidade img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.modalidade h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.modalidade p {
+    font-size: 16px;
+    color: #ddd;
+    text-align: center;
+}
+
+#beneficios {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#beneficios h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#beneficios p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+#beneficios ul {
+    list-style-type: none;
+}
+
+#beneficios ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+#beneficios ul li i {
+    color: #ff0000;
+    margin-right: 10px;
+}
+
+#sobre {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .rodape-icones a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer .rodape-icones a:hover {
+    color: #ff0000;
+}
+
+footer .endereco {
+    margin-top: 20px;
+}
+
+footer .endereco p {
+    font-size: 16px;
+}
+
+footer .endereco address {
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    display: none;
+    cursor: pointer;
+}
+
+#toTop.show {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .cabecalho-conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funcionalidades {
+        flex-direction: column;
+    }
+
+    .modalidade {
+        margin: 20px 0;
+    }
+
+    .funcao {
+        margin-bottom: 40px;
+    }
+
+    .modalidades {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header .introducao h1 {
+        font-size: 28px;
+    }
+
+    header .introducao p {
+        font-size: 16px;
+    }
+
+    header .cabecalho-botao a {
+        padding: 10px 20px;
+    }
+
+    #beneficios ul li {
+        font-size: 16px;
+    }
+
+    footer .rodape-icones a {
+        font-size: 20px;
+    }
+}

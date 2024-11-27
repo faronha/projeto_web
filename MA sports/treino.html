@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento Inclusivo em Casa</title>
+    <link rel="stylesheet" href="treino.css">   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <button id="toTop" class="to-top-btn" >↑</button>
+
+    <script>
+        AOS.init();
+
+        const toTopButton = document.getElementById("toTop");
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                toTopButton.classList.add("show");
+            } else {
+                toTopButton.classList.remove("show");
+            }
+        };
+
+        toTopButton.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+            <div class="logo">
+                <img src="logo(2).jpeg" alt="Treinamento Inclusivo em Casa">
+            </div>
+            <div class="cabecalho-botao">
+                <a href="https://api.whatsapp.com/send?phone=551194627-8871&text=Quero%20participar%20do%20treinamento%20inclusivo%20em%20casa">Quero Participar</a>
+            </div>
+            <div class="cabecalho-botao">
+                <a href="index.html" class="botao">Visite a Introdução</a>
+            </div>
+            
+        </div>
+        <div class="introducao">
+            <h1>Transforme sua vida com o Treinamento Inclusivo em Casa</h1>
+            <p>Treinamento personalizado, acessível para todos, no conforto da sua casa. Com o apoio de profissionais especializados, você pode praticar atividades físicas de forma segura e eficaz, independentemente de suas condições físicas ou limitações.</p>
+            
+        </div>
+    </header>
+
+    <section id="como-funciona" class="funcionamento">
+        <div class="container">
+            <h2>Como Funciona</h2>
+            <p>Nosso objetivo é proporcionar treinamento físico de qualidade, adaptado às suas necessidades, com foco em inclusão, saúde e bem-estar. Não importa sua idade, nível de condicionamento físico ou limitações, temos um plano de treino para você!</p>
+
+            <div class="funcionalidades">
+                <div class="funcao">
+                    <i class="fas fa-video fa-3x"></i>
+                    <h3>Aulas Online</h3>
+                    <p>Participe de aulas ao vivo e interativas, com a possibilidade de tirar dúvidas diretamente com o treinador.</p>
+                </div>
+                <div class="funcao">
+                    <i class="fas fa-users fa-3x"></i>
+                    <h3>Treinamento Personalizado</h3>
+                    <p>Conte com treinos adaptados às suas condições físicas e objetivos pessoais, para garantir resultados no seu tempo.</p>
+                </div>
+                <div class="funcao">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                    <h3>App para Acompanhamento</h3>
+                    <p>Acesse planos de treino, vídeos tutoriais e registre seu progresso através de nosso aplicativo exclusivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modalidades" class="modalidades">
+        <div class="container">
+            <h2>Modalidades de Treinamento</h2>
+            <p>Escolha a modalidade de treino que mais combina com você. Temos opções para todos os gostos e condições físicas.</p>
+
+            <div class="modalidade">
+                <img src="TREINAMENTOFUT.jpg" alt="Treinamento de Futebol">
+                <h3>Futebol Inclusivo</h3>
+                <p>Treinamento de futebol adaptado para iniciantes e pessoas com diferentes habilidades. Com atividades simples e eficazes para todos.</p>
+            </div>
+            <div class="modalidade">
+                <img src="TREINOMUSCULAÇAo.webp" alt="Treinamento de Musculação">
+                <h3>Musculação em Casa</h3>
+                <p>Exercícios de força adaptados para quem quer ganhar massa muscular ou apenas tonificar o corpo, tudo feito com equipamentos simples ou usando o peso do corpo.</p>
+            </div>
+            <div class="modalidade">
+                <img src="yoga.webp" alt="Treinamento de Yoga">
+                <h3>Yoga para Todos</h3>
+                <p>Aulas de yoga focadas na flexibilidade, relaxamento e equilíbrio, adaptadas para todos os níveis e condições físicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Benefícios do Treinamento Inclusivo em Casa</h2>
+            <p>O treinamento inclusivo é uma excelente maneira de melhorar a saúde física e mental de forma segura, acessível e no conforto do seu lar.</p>
+
+            <ul>
+                <li><i class="fas fa-heart"></i> Melhora da saúde cardiovascular e bem-estar geral.</li>
+                <li><i class="fas fa-brain"></i> Aumento da concentração e da saúde mental.</li>
+                <li><i class="fas fa-check-circle"></i> Resultados visíveis sem a necessidade de sair de casa.</li>
+                <li><i class="fas fa-users"></i> Acompanhamento personalizado para atender suas necessidades.</li>
+                <li><i class="fas fa-handshake"></i> Ambiente inclusivo e motivacional, onde todos são bem-vindos.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o Treinamento Inclusivo em Casa</h2>
+            <p>Nosso objetivo é tornar o treinamento físico acessível para todos, independentemente de limitações físicas, idade ou condição financeira. Através de uma plataforma online, oferecemos planos de treino, aulas ao vivo e vídeos tutoriais para que você possa treinar no conforto da sua casa.</p>
+            <p>Nosso time de profissionais é altamente capacitado para ajudar você a atingir seus objetivos de maneira segura e eficaz.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <div class="rodape-icones">
+                <a href="https://www.instagram.com/treinamentoemcasa">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+
+                <a href="https://www.facebook.com/treinamentoemcasa">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/treinamentoemcasa">
+                    <i class="fa-brands fa-tiktok fa-2x"></i>
+                </a>  
+            </div>
+           
+            <div class="endereco">
+                <p><a href="privacidade.html">Política de Privacidade</a></p>
+                <address>Rua Exemplo, 123 - São Paulo - SP</address>
+                <p>Telefone: 11 94627-8871</p>
+                <p>&copy; 2024 Treinamento Inclusivo em Casa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

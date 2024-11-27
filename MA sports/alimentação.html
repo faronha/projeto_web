@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentação Saudável em Casa</title>
+    <link rel="stylesheet" href="alimentacao.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        const toTopButton = document.getElementById("toTop");
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                toTopButton.classList.add("show");
+            } else {
+                toTopButton.classList.remove("show");
+            }
+        };
+
+        toTopButton.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-conteudo">
+            <div class="logo">
+                <img src="logo(2).jpeg" alt="Alimentação Saudável em Casa">
+            </div>
+            <div class="cabecalho-botao">
+                <a href="https://api.whatsapp.com/send?phone=551194627-8871&text=Quero%20aprender%20sobre%20alimentação%20saudável">Quero Participar</a>
+            </div>
+            <div class="cabecalho-botao">
+                <a href="index.html" class="botao">Visite a Introdução</a>
+            </div>
+        </div>
+        <div class="introducao">
+            <h1>Transforme sua alimentação com o Programa de Alimentação Saudável</h1>
+            <p>Alimentação equilibrada e adaptada às suas necessidades, tudo no conforto da sua casa. Com o apoio de nutricionistas e especialistas, você aprenderá a se alimentar de forma saudável e prática.</p>
+        </div>
+    </header>
+
+    <section id="como-funciona" class="funcionamento">
+        <div class="container">
+            <h2>Como Funciona</h2>
+            <p>Nosso objetivo é ensinar você a criar hábitos alimentares saudáveis e equilibrados, adaptados ao seu estilo de vida e objetivos. Se você quer melhorar sua alimentação, estamos aqui para ajudar!</p>
+
+            <div class="funcionalidades">
+                <div class="funcao">
+                    <i class="fas fa-video fa-3x"></i>
+                    <h3>Aulas Online</h3>
+                    <p>Participe de aulas ao vivo com nutricionistas, onde você poderá aprender dicas e receitas saudáveis e tirar dúvidas em tempo real.</p>
+                </div>
+                <div class="funcao">
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <h3>Plano Alimentar Personalizado</h3>
+                    <p>Receba planos de alimentação adaptados às suas necessidades, preferências alimentares e metas, com receitas fáceis de fazer em casa.</p>
+                </div>
+                <div class="funcao">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                    <h3>App para Acompanhamento</h3>
+                    <p>Acompanhe seu progresso, tenha acesso a receitas, dicas e muito mais através do nosso aplicativo exclusivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modalidades" class="modalidades">
+        <div class="container">
+            <h2>Modalidades de Alimentação Saudável</h2>
+            <p>Escolha o plano de alimentação que mais se adapta ao seu estilo de vida. Temos opções para todos os gostos e necessidades.</p>
+
+            <div class="modalidade">
+                <img src="vegetariana.jpg" alt="Alimentação Vegetariana">
+                <h3>Alimentação Vegetariana</h3>
+                <p>Aprenda a se alimentar com alimentos 100% vegetais, balanceando nutrientes e aproveitando ao máximo o poder dos vegetais, grãos e leguminosas.</p>
+            </div>
+            <div class="modalidade">
+                <img src="dieta_low_carb.webp" alt="Alimentação Low-Carb">
+                <h3>Alimentação Low-Carb</h3>
+                <p>Plano de alimentação com baixo carboidrato para quem busca emagrecimento e aumento de energia, sem abrir mão de sabor e prazer à mesa.</p>
+            </div>
+            <div class="modalidade">
+                <img src="mediterranea.jpg" alt="Alimentação Mediterrânea">
+                <h3>Alimentação Mediterrânea</h3>
+                <p>Uma dieta rica em azeite, frutas, vegetais, grãos integrais e peixes, promovendo longevidade e saúde cardiovascular.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Benefícios de uma Alimentação Saudável</h2>
+            <p>Adotar uma alimentação equilibrada pode melhorar muito sua qualidade de vida, tanto fisicamente quanto mentalmente.</p>
+
+            <ul>
+                <li><i class="fas fa-heart"></i> Melhora a saúde cardiovascular e fortalece o sistema imunológico.</li>
+                <li><i class="fas fa-brain"></i> Aumenta a concentração, memória e saúde mental.</li>
+                <li><i class="fas fa-check-circle"></i> Acelera o processo de emagrecimento de forma saudável.</li>
+                <li><i class="fas fa-cogs"></i> Melhora o funcionamento do sistema digestivo e intestino.</li>
+                <li><i class="fas fa-users"></i> Promove um estilo de vida equilibrado e sustentável para toda a família.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o Programa de Alimentação Saudável</h2>
+            <p>Nosso objetivo é ajudar você a transformar seus hábitos alimentares e alcançar seus objetivos de saúde de forma equilibrada e prazerosa. Oferecemos apoio contínuo e planos personalizados para que você tenha resultados a longo prazo.</p>
+            <p>Com a orientação de profissionais da nutrição, nosso programa é acessível e adaptado à sua realidade, sem dietas milagrosas, apenas hábitos saudáveis e sustentáveis.</p>
+        </div>
+    </section>
+
+    <!-- Botão "Voltar ao Topo" foi adicionado aqui -->
+    <button id="toTop" class="to-top-btn">↑</button>
+
+    <footer>
+        <div class="rodape">
+            <div class="rodape-icones">
+                <a href="https://www.instagram.com/alimentacaosaudavelemcasa">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+
+                <a href="https://www.facebook.com/alimentacaosaudavelemcasa">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/alimentacaosaudavelemcasa">
+                    <i class="fa-brands fa-tiktok fa-2x"></i>
+                </a>  
+            </div>
+           
+            <div class="endereco">
+                <p><a href="privacidade.html">Política de Privacidade</a></p>
+                <address>Rua Exemplo, 123 - São Paulo - SP</address>
+                <p>Telefone: 11 94627-8871</p>
+                <p>&copy; 2024 Alimentação Saudável em Casa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
